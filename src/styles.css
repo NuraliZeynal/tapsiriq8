@@ -1,0 +1,28 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .custom-btn {
+    border: none;
+    font-family: sans-serif;
+  }
+  
+  .warn {
+    border: 1px solid yellow;
+  }
+  .hint {
+    font-style: italic;
+  }
+  
+  .custom-btn__warn {
+    color: royalblue;
+  }
+  
+  .custom-btn__hint {
+    display: none;
+  }
+  
+  .custom-btn:hover + .custom-btn__hint {
+    display: block;
+  }
+  
